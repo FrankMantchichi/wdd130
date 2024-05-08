@@ -1,3 +1,11 @@
+
+/* Styles to the top bar */
+.top-bar {
+    border: 1px solid steelblue; /* Blue border */
+    padding: 2px; /* Padding */
+    box-shadow: 0 0 38px grey; /* Box shadow */
+}
+
 main {
     max-width: 840px;
 }
