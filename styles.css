@@ -1,9 +1,9 @@
 
 /* Styles to the top bar */
 .top-bar {
-    border: 1px solid steelblue; /* Blue border */
-    padding: 2px; /* Padding */
-    box-shadow: 0 0 38px grey; /* Box shadow */
+    border: 1px solid rgb(77, 204, 115); /*border */
+    padding: 2px; 
+    box-shadow: 0 0 38px grey; 
 }
 
 main {
