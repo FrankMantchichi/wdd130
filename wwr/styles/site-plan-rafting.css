@@ -1,1 +1,13 @@
-
+/*styles for the nav*/
+        nav {
+            background-color: yellow;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        nav a:last-child {
+            margin-right: 0;
+        }
