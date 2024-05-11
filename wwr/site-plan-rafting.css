@@ -1,27 +1,27 @@
 @import url('http://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
-
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
-:root {
+:root{
     --primary-color: #000;
     --secondary-color: #000;
-    --accent1-color: #000;
+    --accent1-c0lor: #000;
     --accent2-color: #000;
 
-    --heading-font: '', serif;
+    --heading-font: '',serif;
     --paragraph-font: '', serif;
 
-    /*styles for the nav*/
-    --nav-background-color: darkgoldenrod;
+/*styles for the nav*/
+    --nav-background-color: darkgoldenrod;;
     --nav-link-color: #fcf7f7;
     --nav-hover-link-color: #eee;
     --nav-hover-background-color: #141414;
     --nav-link-border-radius: 10px; /* Added border radius for the nav links */
-}
+
+    }
 
 /* Grouping selector for headings */
 h1, h2, h3, h4, h5, h6 {
@@ -40,15 +40,13 @@ p {
     padding: 25px; 
 }
 
-nav {
+nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
-    padding: 30px 30px 30px 0; /* Adjust padding as needed */
-    justify-content: flex-end; /* Move the navigation to the right */
 }
 
-nav a {
+Nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
@@ -59,15 +57,10 @@ nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
 
-.logo {
-    position: absolute;
-    top: 10px;
-    right: calc(100% + 30px); /* Position the logo to the right of the navigation with a 30px gap */
-    width: 100px;
-    height: auto;
-}
+    nav a:hover {
+        color: var(--nav-hover-link-color);
+        background-color: var(--nav-background-color);
+
+    }
+
