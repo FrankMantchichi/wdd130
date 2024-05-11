@@ -16,7 +16,7 @@ body {
     --paragraph-font: '', serif;
 
     /*styles for the nav*/
-    --nav-background-color: darkgoldenrod;
+    --nav-background-color: rgb(247, 188, 41);
     --nav-link-color: #fcf7f7;
     --nav-hover-link-color: #eee;
     --nav-hover-background-color: #141414;
