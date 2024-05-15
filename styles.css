@@ -1,3 +1,11 @@
+/* CSS Rule for Universal Selector (wildcat) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remaining CSS Rules */
 main {
     max-width: 840px;
 }
@@ -31,3 +39,15 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+/* Class Selectors */
+/* Styling for the "box" class */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* border syntax */
+    background-color: darkgoldenrod; /* background color */
+    color: white; /* text color */
+}
+
+/*Last update 15/05/2024 */
