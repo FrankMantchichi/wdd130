@@ -42,8 +42,8 @@ aside h2 {
     position: absolute; /* Set position absolute for the heading */
     top: 10px; /* Adjust the position from the top */
     left: 35%; /* Adjust the position from the left */
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    color: rgb(8, 8, 8);
+    background-color: rgba(0, 0, 0, 0.0); /* Semi-transparent background color */
     padding: 5px; /* Padding */
 }
 
