@@ -11,18 +11,34 @@ main {
 }
 
 aside {
-    width: 20rem;
+    position: relative; /* Set position relative for the container */
+    width: 20em;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* border syntax */
     padding: 1rem;
     background-color: #eee; /* background color */
-    color: #333; /* text color */
+    color: #f8f1f1; /* text color */
     text-align: center;
 }
 
+aside > * {
+    margin: 0.5rem; /* Adjust margin of inner elements */
+}
+
 main img {
-    width: 150px;
+    width: 130px;
     height: auto;
+    float: right; /* Float the image to the right */
+    margin-left: 10px; /* Add some space between the image and the paragraph */
+}
+
+aside h2 {
+    position: absolute; /* Set position absolute for the heading */
+    top: 50px; /* Position from top */
+    left: 150px; /* Position from left */
+    /*background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    /*color: white; /* Text color */
+    /*padding: 5px; /* Padding */ 
 }
 
 aside img {
@@ -46,8 +62,8 @@ footer {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* border syntax */
-    background-color: darkgoldenrod; /* background color */
+    background-color: rgb(99, 98, 98); /* background color */
     color: white; /* text color */
 }
 
-/*Last update 15/05/2024 */
+/*last update 15/05/2024*/
