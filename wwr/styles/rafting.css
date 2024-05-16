@@ -41,14 +41,21 @@ body {
   width: 100%;
   height: auto;
 }
+/*Article decoratiosn*/
+article {
+  background-color: rgba(150, 146, 146, 0.9); /* White background with 90% opacity */
+  padding: 20px; /* Add padding for spacing */
+}
 
-.hero article img {
-    width: 300px;
-    height: auto;
-    float: right;
-    margin-left: 10px;
-    margin-bottom: 10px;
-  }
+article img {
+  float: right; /* Float the image to the right */
+  margin-left: 10px; /* Add some space between the image and text */
+  max-width: 230px; /* Set maximum width for the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: -25px; /* Move the image 30px up */
+}
+
+  
 
   section {
     display: flex;
