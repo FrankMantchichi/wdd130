@@ -1,0 +1,96 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Define CSS variables */
+:root {
+  --primary-color: #3366ff;
+  --secondary-color: #ff6633;
+  --text-color: #333;
+  --background-color: #f9f9f9;
+}
+
+/* Styling headings and paragraph elements */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Remove underlines from social media links */
+footer a {
+  text-decoration: none;
+}
+
+/* Limit entire width of the page */
+body {
+  body {
+    margin: 1200px; /* Remove default margin */
+    padding: auto; /* Remove default padding */
+  }
+}
+
+/* Style the Hero Container using Position Absolute */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*ARTICLE DECO*/
+article {
+  background-color: #d3d3d3; /* light grey background */
+  padding: 20px;
+  overflow: auto;
+  color: white; /* font color white */
+  width: 100%; /* span the full width of the screen */
+  box-sizing: border-box; /* include padding in the element's total width and height */
+  border-radius: 10px;
+}
+
+.hero article img {
+  float: right;
+  margin-left: 10px;
+  max-width: 300px;
+  width: auto;
+}
+
+article p {
+  max-width: 1000px; /* adjust between 220px and 300px as necessary */
+}
+  /*SECTION DECO*/
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section h2 {
+    width: 100%; /* Ensure the heading spans the full width */
+  }
+  
+  section img {
+    max-width: 230px; /* Set maximum width for the images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add 2px margin to the right and bottom of each image, and 0 margin to the left and top */
+  }
+  
+  
+  /*FOOTER DECORATIONS*/
+  footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  footer img {
+    width: 40px; 
+    height: auto; 
+    margin-left: 20px; 
+  }
+  
