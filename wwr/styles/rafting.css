@@ -41,14 +41,17 @@ body {
   width: 100%;
   height: auto;
 }
-
-.hero article img {
-    width: 300px;
-    height: auto;
-    float: right;
-    margin-left: 10px;
-    margin-bottom: 10px;
+/*Article decoratiosn*/
+article {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with 90% opacity */
+    padding: 20px; /* Add padding for spacing */
   }
+  
+  article img {
+    float: right; /* Float the image to the right */
+    margin-left: 10px; /* Add some space between the image and text */
+  }
+  
 
   section {
     display: flex;
@@ -79,8 +82,8 @@ body {
   }
   
   footer img {
-    width: 20px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 10px; /* Add some space between the icons */
+    width: 20px; 
+    height: auto; 
+    margin-left: 10px; 
   }
   
