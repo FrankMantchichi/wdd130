@@ -5,9 +5,23 @@
     box-sizing: border-box;
 }
 
+/* Combined rule for header and footer */
+header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+/* Flexbox styles for the navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Adjust spacing between links */
+    padding: 1rem; /* Adjust padding for the nav bar */
+}
+
 /* Remaining CSS Rules */
 main {
-    max-width: 840px;
+    /* Removed max-width from main */
 }
 
 aside {
@@ -51,6 +65,7 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+    /* Removed max-width from footer */
 }
 
 /* Class Selectors */
@@ -64,4 +79,3 @@ footer {
 }
 
 /* Last update: 15/05/2024 */
-
