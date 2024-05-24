@@ -3,105 +3,109 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* Combined rule for header and footer */
-header, footer {
+  }
+  
+  /* Combined rule for header and footer */
+  .header,
+  .footer,
+  .grid {
     max-width: 840px;
     margin: 0 auto;
-}
-
-/* bottom border to h1 element */
-h1 {
-    border-bottom: 2px solid #dfdc2c; 
-}
-
-
-/* Flexbox styles for the navigation */
-/* Flexbox styles for the navigation */
-nav {
-    background-color: rgb(250, 236, 35);
+  }
+  
+  /* bottom border to h1 element */
+  h1 {
+    border-bottom: 2px solid #e9d525;
+  }
+  
+  /* Flexbox styles for the navigation */
+  nav {
+    background-color: rgb(228, 197, 22);
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 3rem; /* Adjust spacing between links */
+    justify-content: space-between;
     padding: 1rem; /* Adjust padding for the nav bar */
-}
-
-/* Styles for the navigation links */
-nav a {
+  }
+  
+  /* Styles for the navigation links */
+  nav a {
     display: block;
     padding: 0.5rem;
     text-decoration: none; /* Corrected property name */
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 900;
     color: #000000;
     transition: background-color 0.3s, color 0.3s; /* Optional: Add transition for hover effects */
-}
-
-nav a:hover {
+  }
+  
+  nav a:hover {
     background-color: #333; /* Optional: Add a background color on hover */
     color: #fafafa; /* Optional: Change text color on hover */
-}
-
-
-/* Remaining CSS Rules */
-main {
-    /* Removed max-width from main */
-}
-
-aside {
-    width: 20em;
-    margin: 1rem;
-    padding: 1rem;
+  }
+  
+  /* Grid layout for main and aside */
+  .grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* Adjust column widths to swap positions */
+    gap: 1rem; /* Adjust gap between grid items */
+  }
+  
+  /* Styles for main */
+  main {
+    padding: 1rem; /* Adjust padding for main */
+  }
+  
+  /* Styles for aside */
+  aside {
+    padding: 1rem; /* Adjust padding for aside */
     border: 1px solid rgba(0, 0, 0, 0.2);
     background-color: #eee;
     color: #f8f1f1;
     text-align: center;
     position: relative; /* Set position relative for the container */
-}
-
-aside > * {
+  }
+  
+  aside > * {
     margin: 0.5rem;
-}
-
-main img {
+  }
+  
+  main img {
     width: 150px;
     height: auto;
-    float: right;
-    margin-left: 10px;
+    float: right; /* Not needed anymore, as grid positions elements */
+    margin-left: 10px; /* Not needed anymore, as grid positions elements */
     margin-bottom: 10px;
-}
-
-aside img {
+  }
+  
+  aside img {
     width: 200px;
     height: auto;
-}
-
-aside h2 {
+  }
+  
+  aside h2 {
     position: absolute; /* Set position absolute for the heading */
     top: 10px; /* Adjust the position from the top */
     left: 35%; /* Adjust the position from the left */
     color: rgb(8, 8, 8);
     background-color: rgba(0, 0, 0, 0.0); /* Semi-transparent background color */
     padding: 5px; /* Padding */
-}
-
-footer {
+  }
+  
+  footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
     /* Removed max-width from footer */
-}
-
-/* Class Selectors */
-/* Styling for the "box" class */
-.box {
+  }
+  
+  /* Class Selectors */
+  /* Styling for the "box" class */
+  .box {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     background-color: rgb(99, 98, 98);
     color: white;
-}
-
-/* Last update: 15/05/2024 */
+  }
+  
+  /* Last update: 15/05/20
