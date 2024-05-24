@@ -23,7 +23,7 @@
     background-color: rgb(228, 197, 22);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1rem; /* Adjust padding for the nav bar */
   }
   
