@@ -39,8 +39,8 @@
   }
   
   nav a:hover {
-    background-color: #333; /* Optional: Add a background color on hover */
-    color: #fafafa; /* Optional: Change text color on hover */
+    background-color: #333; 
+    color: #fafafa; 
   }
   
   /* Grid layout for main and aside */
