@@ -11,13 +11,39 @@ header, footer {
     margin: 0 auto;
 }
 
+/* bottom border to h1 element */
+h1 {
+    border-bottom: 2px solid #dfdc2c; 
+}
+
+
+/* Flexbox styles for the navigation */
 /* Flexbox styles for the navigation */
 nav {
+    background-color: rgb(250, 236, 35);
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 1rem; /* Adjust spacing between links */
+    gap: 3rem; /* Adjust spacing between links */
     padding: 1rem; /* Adjust padding for the nav bar */
 }
+
+/* Styles for the navigation links */
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none; /* Corrected property name */
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s; /* Optional: Add transition for hover effects */
+}
+
+nav a:hover {
+    background-color: #333; /* Optional: Add a background color on hover */
+    color: #fafafa; /* Optional: Change text color on hover */
+}
+
 
 /* Remaining CSS Rules */
 main {
