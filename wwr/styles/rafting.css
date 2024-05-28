@@ -9,23 +9,6 @@
   --background-color: #f9f9f9;
 }
 
-
-/* Header styling */
-header {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    background-color: yellow;
-    padding: 1rem;
-    width: 100%; /* Set header width to 100% */
-    max-width: 840px;
-    margin: auto;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: flex-end;
-  }
 /* Styling headings and paragraph elements */
 h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color);
@@ -110,3 +93,32 @@ footer img {
   margin-left: 20px; 
 }
 
+/* Header styling */
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  background-color: yellow;
+  padding: 1rem;
+  width: 100%; /* Set header width to 100% */
+  max-width: 840px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: navy;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: tomato;
+  text-decoration: underline;
+}
