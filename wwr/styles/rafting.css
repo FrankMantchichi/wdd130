@@ -92,3 +92,59 @@ footer img {
   height: auto; 
   margin-left: 20px; 
 }
+
+/*here i will be updating my header*/
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	background-color: yellow; /* Added background color */
+	width: 100%; /* Ensure header stretches across the screen */
+	max-width: 840px; /* Limit the maximum width to 840px */
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+	margin-right: 5rem; /* Add space between navigation items */
+}
+
+.navigation li:last-child {
+	margin-right: 0; /* Remove margin from the last item */
+}
+
+.navigation a {
+	display: block;
+	color: rgb(0, 0, 2);
+	padding: 20px;
+	text-decoration: none;
+	font-size: 1.5rem; /* Increase font size */
+	font-weight: bold; /* Make font bold */
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: none;
+}
