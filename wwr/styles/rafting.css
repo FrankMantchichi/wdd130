@@ -149,12 +149,11 @@ section {
 }
 
 
-/*adventure awaits you*/
 /* Adventures section */
 .adventures {
   padding: 20px;
-  background-color: #333333; /* Dark grey background */
-  color: white; /* Ensures text is readable */
+  /*background-color: #333333; /* Dark grey background */
+  color: rgb(0, 0, 0); /* Ensures text is readable */
 }
 
 .adventures-container {
