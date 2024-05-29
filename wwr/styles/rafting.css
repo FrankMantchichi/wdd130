@@ -98,7 +98,7 @@ header {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
-  background-color: yellow;
+  background-color: rgb(167, 236, 245);
   padding: 1rem;
   width: 100%; /* Set header width to 100% */
   max-width: 840px;
@@ -111,14 +111,39 @@ nav {
 }
 
 nav a {
-  margin-left: 1rem;
-  font-size: 1.5rem;
+  margin-left: 2rem;
+  font-size: 2rem;
   font-weight: bold;
-  color: navy;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
 nav a:hover {
   color: tomato;
   text-decoration: underline;
+}
+
+
+/*history section*/
+section {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.container img {
+    grid-column: 2;
+    justify-self: center;
+}
+
+.container p {
+    margin: 0;
 }
