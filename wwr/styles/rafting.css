@@ -3,9 +3,9 @@
 
 /* Define CSS variables */
 :root {
-  --primary-color: #3366ff;
+  --primary-color: #000000;
   --secondary-color: #ff6633;
-  --text-color: #333;
+  --text-color: #000000;
   --background-color: #f9f9f9;
 }
 
@@ -141,7 +141,7 @@ header {
   background-color: #d3d3d3;
   padding: 1rem;
   width: 100%; /* Set header width to 100% */
-  max-width: 840px;
+  max-width: 98%;
   margin: auto;
 }
 
