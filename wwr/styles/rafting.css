@@ -147,3 +147,33 @@ section {
 .container p {
     margin: 0;
 }
+
+
+/*adventure awaits you*/
+/* Adventures section */
+.adventures {
+  padding: 20px;
+  background-color: #333333; /* Dark grey background */
+  color: white; /* Ensures text is readable */
+}
+
+.adventures-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.adventures-container figure {
+  margin: 0;
+  text-align: center;
+}
+
+.adventures-container img {
+  width: 100%;
+  height: auto;
+}
+
+.adventures-container figcaption {
+  margin-top: 5px;
+  font-size: 14px;
+}
