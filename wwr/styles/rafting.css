@@ -34,6 +34,12 @@ body {
 /* Style the Hero Container using Position Absolute */
 .hero {
   position: relative;
+  text-align: center;
+  color: white; /* Ensures text is readable on the hero image */
+}
+/* Style the Hero Container using Position Absolute */
+.hero {
+  position: relative;
 }
 
 .hero img {
@@ -44,6 +50,7 @@ body {
 
 /* ARTICLE DECO */
 article {
+  background-color: #d3d3d3;
   padding: 20px;
   overflow: auto;
   color: white;
@@ -63,6 +70,18 @@ article p {
   max-width: 1000px;
 }
 
+/* CENTER HEADINGS */
+.hero h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+.hero h1 {
+  top: 10%;
+}
+
 /* SECTION DECO */
 section {
   display: flex;
@@ -78,6 +97,27 @@ section img {
   height: auto;
   margin: 10px;
 }
+
+
+/* SECTION DECO */
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section h2 {
+  width: 100%;
+}
+
+section img {
+  max-width: 230px;
+  height: auto;
+  margin: 10px;
+}
+
+
+
+
 
 /* FOOTER DECORATIONS */
 footer {
