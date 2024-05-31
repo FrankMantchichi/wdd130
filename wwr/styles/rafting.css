@@ -215,7 +215,7 @@ section {
 /*................................................................................................/*
 /*CONTACT US EDITS*/
 
-/* Employee section styling */
+/* Employee section */
 .employee-section {
   padding: 20px;
   color: rgb(0, 0, 0); /* Ensures text is readable */
@@ -231,7 +231,7 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive layout */
   gap: 20px; /* Space between the figures */
-  align-items: start; /* Aligns items at the start of the grid */
+  align-items: start; 
 }
 
 .employee-section figure {
@@ -242,7 +242,7 @@ section {
 .employee-section img {
   width: 100%;
   height: auto;
-  border-radius: 8px; /* Optional: add some border-radius to images */
+  border-radius: 8px; 
 }
 
 .employee-section figcaption {
