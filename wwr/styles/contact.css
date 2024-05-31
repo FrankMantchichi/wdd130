@@ -1,0 +1,45 @@
+
+/* FOOTER DECORATIONS */
+footer {
+    display: flex;
+    background-color: #d3d3d3;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  footer img {
+    width: 40px; 
+    height: auto; 
+    margin-left: 20px; 
+  }
+  
+  /* Header styling */
+  header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: #d3d3d3;
+    padding: 1rem;
+    width: 100%; /* Set header width to 100% */
+    max-width: 98%;
+    margin: auto;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav a {
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: tomato;
+    text-decoration: None;
+  }
+/*...........................................................................................................*/  
