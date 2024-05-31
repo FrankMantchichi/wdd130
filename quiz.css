@@ -46,14 +46,13 @@ input[type="number"] {
 }
 
 button[type="submit"] {
-    background-color: yellow;
-    color: black;
+    background-color: rgb(22, 126, 223);
     padding: 10px;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
+    font: bold 16px Arial, sans-serif; color: black;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 7px;
 }
 
 button[type="submit"]:hover {
