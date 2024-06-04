@@ -323,3 +323,22 @@ button[type="submit"]:hover {
 /*................................................................................................/*
 /*Home EDITS 31/05/2024*/ 
 
+/*for the 2 additional images*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+figure {
+  margin: 15px;
+}
+
+.left {
+  text-align: left; margin: 15px;
+}
+
+.right {
+  text-align: right; margin: 15px;
+}
