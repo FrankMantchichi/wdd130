@@ -446,3 +446,11 @@ button:hover {
 .trip-table td {
   background-color: var(--background-color);
 }
+
+/* Center the call-to-action sections on the Trips page */
+.trip-descriptions, .call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
