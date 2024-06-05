@@ -399,3 +399,28 @@ p {
   background-color: rgb(7, 193, 218);
   color: black;
 }
+/*call to action*/
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  width: 100%;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+button {
+  background-color: rgb(255, 17, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: rgb(7, 193, 218);
+  color: black;
+}
