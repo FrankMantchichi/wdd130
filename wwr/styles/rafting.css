@@ -272,6 +272,7 @@ h1 {
   text-align: center;
 }
 
+/*contact form edits...............................................................................*/
 form {
   display: flex;
   flex-direction: column;
@@ -320,6 +321,8 @@ button[type="submit"]:hover {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
 /*................................................................................................/*
 /*Home EDITS 31/05/2024*/ 
 
@@ -341,4 +344,58 @@ figure {
 
 .right {
   text-align: right; margin: 15px;
+}
+
+
+
+/*home form section edits...................................................................................*/
+.form-section {
+  padding: 40px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  width: 100%;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.flex-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.flex-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.flex-form button {
+  background-color: rgb(255, 17, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.flex-form button:hover {
+  background-color: rgb(7, 193, 218);
+  color: black;
 }
